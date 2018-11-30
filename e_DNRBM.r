@@ -11,10 +11,10 @@ if(first)
 	library(magrittr)
 	library(dplyr)
 #------SetDir------------------
-	source('C:/Users/paulo.conceicao/Documents/01/Data_science/Nueva carpeta/Biblio_forex/MQL4/analysis/NNET/DN_SRBM/SetDir.r')
+	source('C:/...../SetDir.r')
 # Load functions --------------
-	source('C:/Users/paulo.conceicao/Documents/01/Data_science/Nueva carpeta/Biblio_forex/MQL4/analysis/NNET/DN_SRBM/hmisc.r')
-	source('C:/Users/paulo.conceicao/Documents/01/Data_science/Nueva carpeta/Biblio_forex/MQL4/analysis/NNET/DN_SRBM/e_DNRBM_FUN.r')
+	source('C:/..../hmisc.r')
+	source('C:/...../e_DNRBM_FUN.r')
 #======Calculate===============================================
 #1----We form a matrix of quotations -------------------
 	price <- pr.OHLC(Open, High, Low, Close);
