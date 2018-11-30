@@ -1,17 +1,9 @@
-//+------------------------------------------------------------------+
-//|                                                      e_DNRBM.mq4 |
-//|                                   Copyright 2016,Vlad Perervenko |
-//|                                                 v_minkov@mail.ru |
-//+------------------------------------------------------------------+
+
 #property copyright "PA"
 #property link      "PA"
 #property version   "1.00"
 #property strict
 // 01.03.16
-/**
-* This code is released under Gnu General Public License (GPL) V3
-* If you need a commercial license then send me an email.
-*/
 
 /**
 * For this to use you need the following:
@@ -24,7 +16,7 @@
 
 // set this so that it points to your R installation. Do NOT remove the --no-save
 #define RPATH "C:/Program Files/R/R-3.3.1/bin/i386/Rterm.exe --no-save"
-#define RUN "source('C:/Users/paulo.conceicao/Documents/01/Data_science/Nueva carpeta/Biblio_forex/MQL4/analysis/NNET/DN_SRBM/e_DNRBM.r')"
+#define RUN "source('C: .... /e_DNRBM.r')"
 //--- input parameters
 input double Lots          = 0.1;
 input double TakeProfit    = 50.0;
@@ -35,7 +27,7 @@ input int    n             = 34; //Number of periods to use for indicators calcu
 input int    z             = 37; //Minimum price movement in dollars in zigzag
 input bool   soft          = true; //softmax?
 input double Kmin          = 10; //set minimum quality of prediction 
-input int    limit         = 5000; //глубина первой загрузки истории
+input int    limit         = 5000;
 input color  cvet          = Brown;
 
 #include <mt4Rb7.mqh>
