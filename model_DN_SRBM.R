@@ -14,9 +14,6 @@ library(mhsmm)
 library(fTrading)
 
 getwd()
-# "C:/Users/paulo.conceicao/Documents/01/Data_science/Nueva carpeta/Biblio_forex/MQL4/analysis/NNET/DN_SRBM"
-
-# C:\Users\paulo.conceicao\AppData\Roaming\MetaQuotes\Terminal\A1454DE38B087C71392E0722BB042EAF\MQL4\Files\EURUSD\H1\Test_2016-11-18
 
 #---2-Input variables (signs, predictors)--------------------------------------------
 In <- function(p = 16){
